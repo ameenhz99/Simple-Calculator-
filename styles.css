@@ -1,0 +1,88 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 450px;
+  padding: 20px;
+  width: 400px;
+  translate: -50% -50%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(170, 169, 169, 0.486);
+}
+.signs {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+#number1 {
+  margin: 10px 30px;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 24px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#number2 {
+  margin: 10px 30px;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  font-size: 24px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+input:focus {
+  outline: none;
+}
+
+h3 {
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+#add,
+#subtract,
+#multiply,
+#divide {
+  font-size: 24px;
+  color: white;
+  border-radius: 50%;
+  border: none;
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+  opacity: 75%;
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+#add {
+  background-color: orange;
+}
+#subtract {
+  background-color: red;
+}
+#multiply {
+  background-color: blue;
+}
+#divide {
+  background-color: purple;
+}
+
+.button.button {
+  opacity: 100%;
+}
+
+#result {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+.last {
+  opacity: 0.8;
+}
