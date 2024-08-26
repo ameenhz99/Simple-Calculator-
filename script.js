@@ -32,7 +32,7 @@ function calculator(operation) {
         if (num2 == 0) {
           res = "cannot divide by zero";
         } else {
-          resres = num1 / num2;
+          res = num1 / num2;
         }
         break;
       default:
